@@ -53,12 +53,12 @@ export const Header = () => {
           <div className='flex gap-4 items-center'>
             <div className='text-[16px] py-8 text-white cursor-pointer'>
               <a href='https://www.instagram.com/ai.gpt.gallery/' target='_blank'>
-                <Image width={18} height={18} src='/static/images/./instagram.png' alt='instagram logo' />
+                <Image width={18} height={18} src='/static/images/instagram.png' alt='instagram logo' />
               </a>
             </div>
             <div className='text-[16px] py-8 text-white cursor-pointer'>
               <a href='https://www.tiktok.com/@ai.gpt.gallery/' target='_blank'>
-                <Image width={32} height={32} src='/static/images/./tiktok.png' alt='tiktok logo' />
+                <Image width={32} height={32} src='/static/images/tiktok.png' alt='tiktok logo' />
               </a>
             </div>
           </div>
