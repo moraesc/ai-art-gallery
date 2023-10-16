@@ -22,12 +22,12 @@ export const Header = () => {
           <div className='flex gap-6 items-center'>
             <div className='text-[16px] py-8 text-white cursor-pointer'>
               <a href='https://www.instagram.com/ai.gpt.gallery/' target='_blank'>
-                <Image width={22} height={22} src='/static/images/./instagram.png' alt='instagram logo' />
+                <Image width={22} height={22} src='/static/images/instagram.png' alt='instagram logo' />
               </a>
             </div>
             <div className='text-[16px] py-8 text-white cursor-pointer'>
               <a href='https://www.tiktok.com/@ai.gpt.gallery/' target='_blank'>
-                <Image width={38} height={38} src='/static/images/./tiktok.png' alt='tiktok logo' />
+                <Image width={38} height={38} src='/static/images/tiktok.png' alt='tiktok logo' />
               </a>
             </div>
           </div>
