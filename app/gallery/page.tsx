@@ -5,7 +5,7 @@ import { Header } from '../Header';
 
 export default function Gallery() {
     return (
-      <div className='px-8'>
+      <>
         <Header />
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 xl:grid-cols-6 gap-4 bg-black my-8">
           {IMAGES.map((image, index) => (
@@ -21,6 +21,6 @@ export default function Gallery() {
             </div>
           ))}
         </div>
-      </div>
+      </>
     );
   };

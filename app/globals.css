@@ -13,7 +13,6 @@ body {
 }
 
 .shimmer {
-  color: white;
   display:inline-block;
   -webkit-mask: linear-gradient(-60deg,rgb(97, 247, 255) 30%,rgba(255, 125, 125, 0.333),rgb(255, 242, 0) 70%) right/300% 100%;
   background-repeat: no-repeat;
