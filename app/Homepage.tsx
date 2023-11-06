@@ -1,8 +1,12 @@
+'use client'
+
 import React from 'react';
 import Image from 'next/image';
 import { SAMPLE_IMAGES } from './constants';
+import { useRouter } from 'next/navigation';
 
 export const Homepage = () => {
+  const router = useRouter();
   return (
     <div className='relative flex flex-col justify-center h-[100vh] items-center'>
        <div className='flex flex-col'>
@@ -11,7 +15,7 @@ export const Homepage = () => {
       </div>
       <div className='grid grid-cols-8 gap-2 mt-8'>
           {SAMPLE_IMAGES.map((image, index) => (
-              <div className='relative group' key={index}>
+              <div className='relative group cursor-pointer' key={index} onClick={() => router.push('/gallery')}>
                 <div className='absolute top-0 left-0 bg-[rgba(0,0,0,0.6)] z-2 w-full h-full hidden md:flex group-hover:hidden'></div>
                 <Image
                   key={index}
